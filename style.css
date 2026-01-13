@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#logo {
+    width: 300px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    border-radius: 9px;
+    background-color: rgb(249, 249, 250);
+    border: none;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#uqi,
+#lich {
+    text-decoration: none;
+    margin-left: 15px;
+    transition: all 1s
+}
+
+#uqi {
+
+    color: #28a6f3;
+}
+
+#uqi:hover {
+
+    color: rgb(2, 42, 78);
+}
+
+#lich {
+
+    color: #e74c3c;
+
+}
+
+#lich:hover {
+    color: rgb(2, 42, 78);
+
+}
+
+
+.tepa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#top {
+    font-size: 58px;
+    font-weight: 100;
+}
+
+
+#tuliq {
+    width: 140px;
+    border: none;
+    background-color: #28a6f3;
+    height: 40px;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* cardlar qismi */
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+
+
+/* card-1 */
+.div1 {
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.card-header-1 {
+    background-color: rgb(185, 185, 185);
+    width: 100%;
+    height: 45%;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+#rasm-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    transform: translate(50%, 12%);
+}
+
+.card-body-1 {
+    width: 100%;
+    height: 55%;
+}
+
+#ism-1 {
+    margin: 15px 0 8px;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#kurs-1 {
+    line-height: 20px;
+    height: 60px;
+    overflow: hidden;
+    opacity: .5;
+    text-align: center;
+}
+
+#stars {
+    text-align: center;
+}
